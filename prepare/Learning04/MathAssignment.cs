@@ -5,7 +5,8 @@ public class MathAssignment : Assignment
 
     public MathAssignment(string name, string topic, string section, string problems) : base(name, topic)
     {
-        _textbookSection = section;
+        _textbookSection = section;    
+        _problems = problems;
     }
 
     public string GetHomeworkList()
