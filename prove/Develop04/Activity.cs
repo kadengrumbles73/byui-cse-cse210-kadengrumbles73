@@ -35,6 +35,7 @@ public abstract class Activity
         Console.WriteLine($"You have completed another {_duration} seconds of the {_name}.");
         ShowSpinner(3);
     }
+    
     public void ShowSpinner(int seconds)
     {
         List<string> animationStrings = new List<string> { "|", "/", "-", "\\" };
