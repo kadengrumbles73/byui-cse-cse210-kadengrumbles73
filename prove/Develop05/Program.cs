@@ -96,7 +96,7 @@ class Program
         Console.WriteLine($"Congratulations! You earned {earned} points!");
 
         if (GetLevel() > oldLevel)
-        {
+        { 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine($"LEVEL UP! You reached Level {GetLevel()}!");
             Console.ResetColor();
